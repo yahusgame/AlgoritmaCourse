@@ -15,12 +15,12 @@ namespace BTKAkademi.ProgramlamaTemelleri
                 "badminton",
                 "skiing"
             };
-            /*
-            foreach (string s in sporlar)
+            
+            foreach (string s in sports)
             {
                 Console.WriteLine(s);
             }
-            */
+            
             Console.WriteLine();
             //Lambda Expression
             sports.ForEach(s => Console.WriteLine(s));
